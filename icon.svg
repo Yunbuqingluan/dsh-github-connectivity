@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="GitHub connectivity doctor">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1f2430"/>
+  <circle cx="32" cy="30" r="15" fill="none" stroke="#5ad1a0" stroke-width="3"/>
+  <path d="M17 30h30" stroke="#5ad1a0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 15c5 4.5 5 25.5 0 30-5-4.5-5-25.5 0-30z" fill="none" stroke="#5ad1a0" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M14 47h12l5-7 7 5 6-10 6 12" fill="none" stroke="#7cc4ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

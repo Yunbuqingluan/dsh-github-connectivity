@@ -1,0 +1,4 @@
+- insert:
+    - id: github-connectivity-doctor
+      name: dsh-github-connectivity
+      config: {}

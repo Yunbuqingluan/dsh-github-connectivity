@@ -1,0 +1,5 @@
+node_modules/
+*.check.mjs
+test-*.mjs
+.DS_Store
+Thumbs.db

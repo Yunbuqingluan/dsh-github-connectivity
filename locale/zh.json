@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub 连接诊断",
+    "description": "逐个探测 GitHub 各服务的 DNS/TCP/TLS，判定卡在哪一层，并给出可直接复制的修复命令（指定 IP、git 代理、SSH 走 443、镜像克隆）。"
+  }
+}

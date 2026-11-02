@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub Connectivity Doctor",
+    "description": "Probes DNS/TCP/TLS for every GitHub host, names the blocking layer, and prints copy-ready fixes (hosts pin, git proxy, SSH over 443, mirror clone)."
+  }
+}

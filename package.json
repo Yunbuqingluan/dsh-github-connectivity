@@ -1,0 +1,55 @@
+{
+  "name": "dsh-github-connectivity",
+  "version": "1.2.1",
+  "description": "诊断本机到 GitHub 各服务的连通性，判定封锁类型并给出可执行的修复命令。",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/Yunbuqingluan/dsh-github-connectivity#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yunbuqingluan/dsh-github-connectivity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yunbuqingluan/dsh-github-connectivity/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "github",
+    "connectivity",
+    "diagnostics",
+    "cordis"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/*.png",
+    "assets/*.ps1"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  }
+}
